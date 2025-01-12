@@ -1,0 +1,60 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: lightgoldenrodyellow;
+        }
+
+        /* Type Selector */
+        h1 {
+            color: darkblue;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: tomato;
+        }
+
+        /* ID Selector */
+        #special {
+            font-size: 1.5em;
+            color: darkred;
+        }
+
+        /* Descendant Selector */
+        .container p {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        /* Child Selector */
+        .container > ul > li {
+            list-style-type: square;
+        }
+
+        /* Adjacent Sibling Selector */
+        h2 + p {
+            font-style: italic;
+        }
+
+        /* General Sibling Selector */
+        h2 ~ p {
+            color: gray;
+        }
+
+        /* Attribute Selector */
+        input[type="text"] {
+            border: 2px solid green;
+            padding: 5px;
+        }
+
+        /* Pseudo-class Selector */
+        a:hover {
+            text-decoration: underline;
+            color: orange;
+        }
+
+        /* Pseudo-element Selector */
+        p::first-line {
+            font-weight: bold;
+        }
